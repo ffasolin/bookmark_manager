@@ -1,3 +1,4 @@
+```
 As a user
 So I can access my saved bookmarks
 I want to see a list of every link added
@@ -12,4 +13,5 @@ I want to tag each into categories
 
 As a user
 So I can access my saved bookmarks easily
-I want to be able to search links by category
+I want to be able to filter links by category
+```
