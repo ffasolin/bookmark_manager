@@ -6,7 +6,7 @@ So that I can choose a link
 I would like to see a list of links at my homepage
 
 As a User
-So that I can choose a link
+So that I can quickly visit links
 I would like to see the links in descending order
 
 As a User
