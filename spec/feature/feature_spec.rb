@@ -1,5 +1,8 @@
 require './spec/spec_helper'
 feature 'Viewing list of links' do
+  after do
+    DatabaseCleaner.clean
+  end
   scenario 'views list of links on link page' do
     Link.create(url: 'http://www.makersacademy.com', title: 'Makers Academy')
     visit '/links'

@@ -1,3 +1,5 @@
+ENV['RACK_ENV'] = 'test'
+
 require 'simplecov'
 require 'simplecov-console'
 #require './spec/feature/web_helpers'
@@ -19,22 +21,24 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
 ])
 SimpleCov.start
 
-ENV['RACK_ENV'] = 'test'
 
 # require File.join(File.dirname(__FILE__), '..', 'app.rb')
 
 
 RSpec.configure do |config|
 
+
   # config.before(:suite) do
   #   DatabaseCleaner.strategy = :transaction
   #   DatabaseCleaner.clean_with(:truncation)
   # end
   #
-  # config.around(:each) do |example|
-  #   DatabaseCleaner.cleaning do
-  #     example.run
-  #   end
+  # config.around(:each) do
+  #   DatabaseCleaner.start
+  # end
+  #
+  # config.after(:suite) do
+  #   DatabaseCleaner.clean
   # end
 
   config.expect_with :rspec do |expectations|
