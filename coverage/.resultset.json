@@ -1,16 +1,16 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/hyper0009/projects/bookmark_manager/spec/feature/feature_spec.rb": [
+      "/Users/peterbarcsak/Projects/Bookmark_Manager/spec/feature/feature_spec.rb": [
         1,
         1,
         1,
         1,
         1,
-        0,
+        1,
         null,
-        0,
-        0,
+        1,
+        1,
         null,
         null,
         null,
@@ -23,6 +23,6 @@
         null
       ]
     },
-    "timestamp": 1493728384
+    "timestamp": 1493731335
   }
 }

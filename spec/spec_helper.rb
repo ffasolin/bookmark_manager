@@ -4,7 +4,10 @@ require 'simplecov-console'
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
-require './app/model/link'
+require './app/app'
+require './app/models/link'
+
+Capybara.app = BookmarkManager
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,
@@ -15,9 +18,8 @@ SimpleCov.start
 
 ENV['RACK_ENV'] = 'test'
 
-#require File.join(File.dirname(__FILE__), '..', 'app.rb')
+# require File.join(File.dirname(__FILE__), '..', 'app.rb')
 
-#Capybara.app = RPS
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
