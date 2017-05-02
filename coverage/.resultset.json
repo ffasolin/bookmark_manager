@@ -1,9 +1,12 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/hyper0009/projects/bookmark_manager/spec/feature/creating_links_spec.rb": [
+      "/Users/peterbarcsak/Projects/Bookmark_Manager/spec/feature/creating_links_spec.rb": [
         1,
         1,
+        1,
+        1,
+        null,
         1,
         1,
         1,
@@ -16,7 +19,7 @@
         null,
         null
       ],
-      "/Users/hyper0009/projects/bookmark_manager/spec/feature/feature_spec.rb": [
+      "/Users/peterbarcsak/Projects/Bookmark_Manager/spec/feature/feature_spec.rb": [
         1,
         1,
         1,
@@ -38,6 +41,6 @@
         null
       ]
     },
-    "timestamp": 1493734366
+    "timestamp": 1493735578
   }
 }
