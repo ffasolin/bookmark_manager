@@ -6,7 +6,8 @@
     Title: <%= link.title %>
     URL: <%= link.url %>
     Tags: <% link.tags.each do |tag| %>
-    <%=tag.name%> |
+
+    <%=link.tags.count > 1?"#{tag.name} |": tag.name%>
  <%end%>
   </li>
   <% end %>
