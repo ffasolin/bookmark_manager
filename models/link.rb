@@ -13,6 +13,7 @@ end
 
 DataMapper.setup(:default, 'postgres://localhost/bookmark_manager_test') if ENV['RACK_ENV'] == 'test'
 DataMapper.setup(:default, 'postgres://localhost/bookmark_manager_development') if ENV['RACK_ENV'] == 'development'
+DataMapper.setup(:default, ENV['DATABASE_URL']) if ENV['DATABASE_URL'] != nil
 
 DataMapper.finalize
 
