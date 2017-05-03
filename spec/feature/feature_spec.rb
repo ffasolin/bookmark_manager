@@ -1,6 +1,6 @@
 require './spec/spec_helper'
 feature 'Viewing list of links' do
-  after do
+  before do
     DatabaseCleaner.clean
   end
   scenario 'views list of links on link page' do
@@ -13,10 +13,3 @@ feature 'Viewing list of links' do
     end
   end
 end
-
-
-
-
-# As a time-pressed user
-# So that I can quickly go to web sites I regularly visit
-# I would like to see a list of links on the homepage
