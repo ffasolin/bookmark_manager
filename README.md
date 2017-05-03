@@ -1,17 +1,23 @@
+## User Stories
+
 ```
-As a user
-So I can access my saved bookmarks
-I want to see a list of every link added
+As a User
+So that I can choose a link
+I would like to see a list of links at my homepage
 
-As a user
-So I can save a new link
-I want to be able to add links to my bookmarks
+As a User
+So that I can quickly visit links
+I would like to see the links in descending order
 
-As a user
-So I can organise my saved links
-I want to tag each into categories
+As a User
+So that I can revisit a site
+I would like to add the site's address and title to my Bookmark Manager
 
-As a user
-So I can access my saved bookmarks easily
-I want to be able to filter links by category
+As a User
+So that I can specify links by genre
+I would like to add tags to the corresponding links in my Bookmark Manager
+
+As a User
+So that I can search links by genre
+I would like to filter links by tag
 ```

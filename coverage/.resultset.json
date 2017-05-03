@@ -1,0 +1,68 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/peterbarcsak/Projects/Bookmark_Manager/spec/feature/creating_links_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/peterbarcsak/Projects/Bookmark_Manager/spec/feature/feature_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/peterbarcsak/Projects/Bookmark_Manager/spec/feature/new_tag_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1493834870
+  }
+}
