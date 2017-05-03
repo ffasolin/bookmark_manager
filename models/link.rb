@@ -1,7 +1,6 @@
 require 'data_mapper'
-require 'dm-migrations'
+require 'dm-postgres-adapter'
 
-DataMapper.setup(:default, 'postgres://Fasolin:secret@localhost/database_play')
 
 class Link
   include DataMapper::Resource
@@ -11,6 +10,8 @@ class Link
   property :title, String
 
 end
+
+DataMapper.setup(:default, 'postgres://localhost/bookmark_manager_test')
 
 DataMapper.finalize
 

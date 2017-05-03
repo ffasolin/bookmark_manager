@@ -1,6 +1,6 @@
 feature 'home' do
   scenario 'user sees list of links' do
-    visit '/'
+    visit '/links'
     Link.create(
     :url => "https://www.theguardian.com/uk",
     :title => "Guardian",
