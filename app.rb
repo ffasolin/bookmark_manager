@@ -1,3 +1,4 @@
+ENV['RACK_ENV'] ||= 'development'
 require 'sinatra'
 require './models/link'
 

@@ -11,7 +11,8 @@ class Link
 
 end
 
-DataMapper.setup(:default, 'postgres://localhost/bookmark_manager_test')
+DataMapper.setup(:default, 'postgres://localhost/bookmark_manager_test') if ENV['RACK_ENV'] == 'test'
+DataMapper.setup(:default, 'postgres://localhost/bookmark_manager_development') if ENV['RACK_ENV'] == 'development'
 
 DataMapper.finalize
 
