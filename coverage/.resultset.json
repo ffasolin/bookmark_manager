@@ -66,6 +66,18 @@
         null,
         null
       ],
+      "/Users/hyper0009/projects/bookmark_manager/spec/feature/multiple_tags_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/hyper0009/projects/bookmark_manager/spec/unit/link_spec.rb": [
         1,
         null,
@@ -80,6 +92,6 @@
         null
       ]
     },
-    "timestamp": 1493827548
+    "timestamp": 1493833289
   }
 }
