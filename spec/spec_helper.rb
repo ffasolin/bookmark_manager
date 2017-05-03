@@ -8,6 +8,7 @@ require 'capybara/rspec'
 require 'rspec'
 require './app/app'
 require './app/models/link'
+require './app/models/tag'
 require 'database_cleaner'
 
 DatabaseCleaner.strategy = :truncation
