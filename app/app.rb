@@ -22,4 +22,11 @@ class BookmarkManager < Sinatra::Base
     redirect '/links'
   end
 
+  get '/tags/bubbles' do
+binding.pry
+    @links = Link.all(Link.tags.tag_name => 'bubbles')
+
+    erb(:links)
+  end
+
 end

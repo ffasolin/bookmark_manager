@@ -32,6 +32,21 @@
         null,
         null
       ],
+      "/Users/Fasolin/Projects/bookmark_manager/spec/feature/filter_tags_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/Fasolin/Projects/bookmark_manager/spec/feature/new_tag_spec.rb": [
         1,
         1,
@@ -44,12 +59,10 @@
         1,
         1,
         1,
-        1,
-        1,
         null,
         null
       ]
     },
-    "timestamp": 1493895706
+    "timestamp": 1493902470
   }
 }

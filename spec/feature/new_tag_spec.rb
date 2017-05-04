@@ -6,10 +6,8 @@ feature 'adding new sites' do
     fill_in 'new_url', with: 'google.com'
     fill_in 'new_title', with: 'google'
     fill_in 'new_tag', with: 'search engine'
-    click_button 'submit'
+    click_button 'Submit'
     link = Link.first
-    p LinkTag.all
-    p link.tags.map(&:tag_name)
     expect(link.tags.map(&:tag_name)).to include('search engine')
     end
   end

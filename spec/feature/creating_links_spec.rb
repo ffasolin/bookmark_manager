@@ -5,7 +5,7 @@ feature 'adding new sites' do
     visit '/links/new'
     fill_in 'new_url', with: 'google.com'
     fill_in 'new_title', with: 'google'
-    click_button 'submit'
+    click_button 'Submit'
 
     within 'ul#links' do
     expect(page).to have_content 'google'
