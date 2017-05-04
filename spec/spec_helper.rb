@@ -8,6 +8,7 @@ require 'capybara/rspec'
 require 'rspec'
 require './app/app'
 require './app/models/link'
+require './app/models/tag'
 require 'database_cleaner'
 
 DatabaseCleaner.strategy = :truncation
@@ -15,15 +16,8 @@ DatabaseCleaner.strategy = :truncation
 Capybara.app = BookmarkManager
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
-  SimpleCov::Formatter::Console,
-  # Want a nice code coverage website? Uncomment this next line!
-  # SimpleCov::Formatter::HTMLFormatter
-])
+  SimpleCov::Formatter::Console])
 SimpleCov.start
-
-
-# require File.join(File.dirname(__FILE__), '..', 'app.rb')
-
 
 RSpec.configure do |config|
 
@@ -37,19 +31,6 @@ RSpec.configure do |config|
    config.after(:each) do
        DatabaseCleaner.clean
    end
-
-  # config.before(:suite) do
-  #   DatabaseCleaner.strategy = :transaction
-  #   DatabaseCleaner.clean_with(:truncation)
-  # end
-  #
-  # config.around(:each) do
-  #   DatabaseCleaner.start
-  # end
-  #
-  # config.after(:suite) do
-  #   DatabaseCleaner.clean
-  # end
 
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true

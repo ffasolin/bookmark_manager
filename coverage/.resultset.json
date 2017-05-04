@@ -1,6 +1,7 @@
 {
   "RSpec": {
     "coverage": {
+<<<<<<< HEAD
       "/Users/Fasolin/Projects/bookmark_manager/spec/feature/creating_links_spec.rb": [
         1,
         1,
@@ -62,7 +63,58 @@
         null,
         null
       ]
+||||||| merged common ancestors
+      "/Users/peterbarcsak/Projects/Bookmark_Manager/spec/feature/creating_links_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/peterbarcsak/Projects/Bookmark_Manager/spec/feature/feature_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+=======
+>>>>>>> d36a69a0faa73bc9c128ac1d134553ef707027c1
     },
+<<<<<<< HEAD
     "timestamp": 1493902470
+||||||| merged common ancestors
+    "timestamp": 1493739356
+=======
+    "timestamp": 1493908046
+>>>>>>> d36a69a0faa73bc9c128ac1d134553ef707027c1
   }
 }
