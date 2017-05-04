@@ -3,7 +3,6 @@ require 'sinatra/base'
 require 'pry'
 require_relative './models/data_mapper_setup'
 
-
 class BookmarkManager < Sinatra::Base
 
   get '/links' do
